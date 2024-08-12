@@ -1,15 +1,17 @@
 // import HookForm from "./components/HookForm";
 // import ToggleButton from "./components/ToggleButton";
 // import SplitSentence from "./components/SplitSentence";
-import Exercise from "./components/Exercise";
+// import SearchParams from "./components/SearchParams";
+// import GuessColor from "./components/GuessColor";
 
 function App() {
   return (
-    <div className="w-100 d-flex flex-column align-items-center justify-content-center mt-5">
+    <div className="w-100 h-100 d-flex flex-column align-items-center justify-content-center">
       {/* <HookForm /> */}
       {/* <ToggleButton /> */}
       {/* <SplitSentence /> */}
-      <Exercise />
+      {/* <SearchParams /> */}
+      {/* <GuessColor /> */}
     </div>
   )
 }

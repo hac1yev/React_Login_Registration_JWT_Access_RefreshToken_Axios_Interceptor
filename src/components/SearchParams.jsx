@@ -1,6 +1,6 @@
 import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
 
-const Exercise = () => {
+const SearchParams = () => {
   const [searchParams] = useSearchParams();
   const navigate = useNavigate();
   const { pathname } = useLocation();  
@@ -29,4 +29,4 @@ const Exercise = () => {
   );
 };
 
-export default Exercise;
+export default SearchParams;
